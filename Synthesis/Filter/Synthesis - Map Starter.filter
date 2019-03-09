@@ -1500,7 +1500,7 @@ Show # $s->mods->league $l->delve %D3
 SetBackgroundColor 62 103 145 255
 MinimapIcon 0 Blue Star
 PlayEffect Blue Temp
-CustomAlertSound "Shaper_Elder_League_Items.mp3"
+CustomAlertSound "Delve_and_Incursion_Items.mp3"
 
 #------------------------------------
 #   [0523] Delve
@@ -1515,7 +1515,7 @@ Show # $s->mods->league $l->delve
 	MinimapIcon 0 Blue Star
 	PlayEffect Blue Temp
 SetTextColor 166 223 0 255
-CustomAlertSound "Shaper_Elder_League_Items.mp3"
+CustomAlertSound "Delve_and_Incursion_Items.mp3"
 
 #------------------------------------
 #   [0524] Bestiary
@@ -1545,7 +1545,7 @@ Show # $s->mods->league $l->incursion
 	SetBackgroundColor 62 103 145 255    # BACKGROUND:	 Rare T1
 	MinimapIcon 0 Blue Star
 	PlayEffect Blue Temp
-CustomAlertSound "Shaper_Elder_League_Items.mp3"
+CustomAlertSound "Delve_and_Incursion_Items.mp3"
 
 Show #  $s->mods->league $l->incursion
 	Identified True
@@ -1557,7 +1557,7 @@ Show #  $s->mods->league $l->incursion
 	PlayEffect Blue Temp
 SetTextColor 166 223 0 255
 SetBackgroundColor 62 103 145 255
-CustomAlertSound "Shaper_Elder_League_Items.mp3"
+CustomAlertSound "Delve_and_Incursion_Items.mp3"
 
 Show #  $s->mods->league $l->warbands
 	Identified True
@@ -4187,7 +4187,7 @@ Show # $s->maps $t->vaal $lvl->10
 	MinimapIcon 0 Blue Square
 	PlayEffect Blue Temp
 SetTextColor 166 223 0 255
-CustomAlertSound "Shaper_Elder_League_Items.mp3"
+CustomAlertSound "Delve_and_Incursion_Items.mp3"
 
 Show # $s->maps $t->yellow $lvl->10
 	MapTier >= 10
@@ -5281,7 +5281,7 @@ Show # $s->uniques $t->exception $links->5
 	SetBackgroundColor 175 96 37 255     # BACKGROUND:	 Unique T2
 	MinimapIcon 0 Yellow Star
 	PlayEffect Yellow
-CustomAlertSound "Damn_Son.mp3"
+CustomAlertSound "Tier_2_Items.mp3"
 
 #------------------------------------
 #   [2205] Multi-Unique bases.
