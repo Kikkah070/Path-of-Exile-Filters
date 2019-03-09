@@ -1435,25 +1435,25 @@ SetTextColor 255 255 255 255
 CustomAlertSound "Fractured_Item.mp3"
 
 Show 
-FracturedItem True
-Rarity <= Rare
-Class "Bow" "Staves" "Two Hand"
-SetFontSize 45
-SetBorderColor 255 255 255 239        # BORDERCOLOR:	 Special Base
-SetBackgroundColor 0 59 145 255
-MinimapIcon 2 Blue Star
-PlayEffect Blue
+	FracturedItem True
+	Rarity <= Rare
+	Class "Bow" "Staves" "Two Hand"
+	SetFontSize 45
+	SetBorderColor 255 255 255 239       # BORDERCOLOR:	 Special Base
+	SetBackgroundColor 0 59 145 255
+	MinimapIcon 2 Blue Star
+	PlayEffect Blue
 SetTextColor 255 255 255 255
 CustomAlertSound "Fractured_Item.mp3"
 
 Show 
-FracturedItem True
-Rarity <= Rare
-SetFontSize 45
-SetBorderColor 255 255 255 239        # BORDERCOLOR:	 Special Base
-SetBackgroundColor 0 59 145 255       # BACKGROUND:	 Rare T1
-MinimapIcon 2 Blue Star
-PlayEffect Blue
+	FracturedItem True
+	Rarity <= Rare
+	SetFontSize 45
+	SetBorderColor 255 255 255 239       # BORDERCOLOR:	 Special Base
+	SetBackgroundColor 0 59 145 255      # BACKGROUND:	 Rare T1
+	MinimapIcon 2 Blue Star
+	PlayEffect Blue
 SetTextColor 255 255 255 255
 CustomAlertSound "Fractured_Item.mp3"
 
@@ -1462,15 +1462,15 @@ CustomAlertSound "Fractured_Item.mp3"
 #------------------------------------
 
 Show 
-SynthesisedItem True
-Rarity <= Rare
-SetFontSize 45
-SetBorderColor 255 0 0 255            # BORDERCOLOR:	 Special Base
-SetBackgroundColor 0 59 145 255       # BACKGROUND:	 Rare T1
-MinimapIcon 2 Blue Star
-PlayEffect Blue
-SetTextColor 255 0 0 255
+	SynthesisedItem True
+	Rarity <= Rare
+	SetFontSize 45
+	SetBorderColor 255 0 0 255           # BORDERCOLOR:	 Special Base
+	SetBackgroundColor 0 59 145 255      # BACKGROUND:	 Rare T1
+	MinimapIcon 2 Blue Star
+	PlayEffect Blue
 CustomAlertSound "Fractured_Item.mp3"
+SetTextColor 255 0 0 255
 
 #------------------------------------
 #   [0521] Betrayal
@@ -1500,7 +1500,7 @@ Show # $s->mods->league $l->delve %D3
 SetBackgroundColor 62 103 145 255
 MinimapIcon 0 Blue Star
 PlayEffect Blue Temp
-CustomAlertSound "Shaper_Elder_League_Items.mp3"
+CustomAlertSound "Delve_and_Incursion_Items.mp3"
 
 #------------------------------------
 #   [0523] Delve
@@ -1515,7 +1515,7 @@ Show # $s->mods->league $l->delve
 	MinimapIcon 0 Blue Star
 	PlayEffect Blue Temp
 SetTextColor 166 223 0 255
-CustomAlertSound "Shaper_Elder_League_Items.mp3"
+CustomAlertSound "Delve_and_Incursion_Items.mp3"
 
 #------------------------------------
 #   [0524] Bestiary
@@ -1545,7 +1545,7 @@ Show # $s->mods->league $l->incursion
 	SetBackgroundColor 62 103 145 255    # BACKGROUND:	 Rare T1
 	MinimapIcon 0 Blue Star
 	PlayEffect Blue Temp
-CustomAlertSound "Shaper_Elder_League_Items.mp3"
+CustomAlertSound "Delve_and_Incursion_Items.mp3"
 
 Show #  $s->mods->league $l->incursion
 	Identified True
@@ -1557,7 +1557,7 @@ Show #  $s->mods->league $l->incursion
 	PlayEffect Blue Temp
 SetTextColor 166 223 0 255
 SetBackgroundColor 62 103 145 255
-CustomAlertSound "Shaper_Elder_League_Items.mp3"
+CustomAlertSound "Delve_and_Incursion_Items.mp3"
 
 Show #  $s->mods->league $l->warbands
 	Identified True
@@ -1578,8 +1578,8 @@ Show
 	SetBorderColor 57 190 203 255        # BORDERCOLOR:	 Special Base
 	MinimapIcon 2 Blue Star
 	PlayEffect Blue
-SetBackgroundColor 113 22 22 255
 SetTextColor 57 190 203 255
+SetBackgroundColor 113 22 22 255
 PlayAlertSound 15 300
 
 #===============================================================================================================
@@ -4236,7 +4236,7 @@ Show # $s->maps $t->vaal $lvl->10
 	MinimapIcon 0 Blue Square
 	PlayEffect Blue Temp
 SetTextColor 166 223 0 255
-CustomAlertSound "Shaper_Elder_League_Items.mp3"
+CustomAlertSound "Delve_and_Incursion_Items.mp3"
 
 Show # $s->maps $t->yellow $lvl->10
 	MapTier >= 10
@@ -5164,15 +5164,15 @@ Show # $s->divination $t->3 %TB-Divination-T3
 #------------------------------------
 
 Show # $s->divination->unknown
-Class "Divination"
-BaseType "Boon of Justice" "The Golden Era"
-SetFontSize 45
-SetTextColor 252 84 12 255            # TEXTCOLOR:	 High Special Base
-SetBorderColor 252 84 12 255
-SetBackgroundColor 34 34 51 255       # BACKGROUND:	 Divi UNKNOWN
-MinimapIcon 2 Brown Hexagon
-PlayEffect Brown
-PlayAlertSound 2 300
+	Class "Divination"
+	BaseType "Boon of Justice" "The Golden Era"
+	SetFontSize 45
+	SetTextColor 252 84 12 255           # TEXTCOLOR:	 High Special Base
+	SetBorderColor 252 84 12 255
+	SetBackgroundColor 34 34 51 255      # BACKGROUND:	 Divi UNKNOWN
+	PlayAlertSound 2 300                 # DROPSOUND:	 Currency Sound
+	MinimapIcon 2 Brown Hexagon
+	PlayEffect Brown
 
 #------------------------------------
 #   [2006] Special - Special Currency Cards
@@ -5330,7 +5330,7 @@ Show # $s->uniques $t->exception $links->5
 	SetBackgroundColor 175 96 37 255     # BACKGROUND:	 Unique T2
 	MinimapIcon 0 Yellow Star
 	PlayEffect Yellow
-CustomAlertSound "Damn_Son.mp3"
+CustomAlertSound "Tier_2_Items.mp3"
 
 #------------------------------------
 #   [2205] Multi-Unique bases.
