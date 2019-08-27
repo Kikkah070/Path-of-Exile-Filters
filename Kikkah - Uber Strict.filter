@@ -3051,43 +3051,43 @@ SetBackgroundColor 65 20 80              # BACKGROUND:	 Breach
 #   [1504] Rare trinkets "remaining"
 #------------------------------------
 
-Show # %H3
-	ItemLevel >= 75
-	Rarity Rare
-	Class Amulets Belts Rings
-	BaseType "Amethyst Ring" "Chain Belt" "Cloth Belt" "Coral Amulet" "Gold Amulet" "Gold Ring" "Iron Ring" "Paua Amulet" "Paua Ring" "Studded Belt"
-	SetFontSize 40
-	SetTextColor 255 190 0 255              # TEXTCOLOR:	 High Special Base
-	SetBorderColor 255 190 0 255            # BORDERCOLOR:	 Neutral T1
-	SetBackgroundColor 0 75 30 255          # BACKGROUND:	 Trinket T2
+Hide # %H3
+ItemLevel >= 75
+Rarity Rare
+Class Amulets Belts Rings
+BaseType "Amethyst Ring" "Chain Belt" "Cloth Belt" "Coral Amulet" "Gold Amulet" "Gold Ring" "Iron Ring" "Paua Amulet" "Paua Ring" "Studded Belt"
+SetFontSize 40
+SetTextColor 255 190 0 255               # TEXTCOLOR:	 High Special Base
+SetBorderColor 255 190 0 255             # BORDERCOLOR:	 Neutral T1
+SetBackgroundColor 0 75 30 255           # BACKGROUND:	 Trinket T2
 
-Show # %H3
-	ItemLevel >= 65
-	Rarity Rare
-	Class Amulets Belts Rings
-	BaseType "Amethyst Ring" "Chain Belt" "Cloth Belt" "Coral Amulet" "Gold Amulet" "Gold Ring" "Iron Ring" "Paua Amulet" "Paua Ring" "Studded Belt"
-	SetFontSize 40
-	SetTextColor 255 190 0 255              # TEXTCOLOR:	 High Special Base
-	SetBorderColor 255 190 0 255            # BORDERCOLOR:	 Neutral T1
-	SetBackgroundColor 0 75 30 255          # BACKGROUND:	 Trinket T2
+Hide # %H3
+ItemLevel >= 65
+Rarity Rare
+Class Amulets Belts Rings
+BaseType "Amethyst Ring" "Chain Belt" "Cloth Belt" "Coral Amulet" "Gold Amulet" "Gold Ring" "Iron Ring" "Paua Amulet" "Paua Ring" "Studded Belt"
+SetFontSize 40
+SetTextColor 255 190 0 255               # TEXTCOLOR:	 High Special Base
+SetBorderColor 255 190 0 255             # BORDERCOLOR:	 Neutral T1
+SetBackgroundColor 0 75 30 255           # BACKGROUND:	 Trinket T2
 
-Show # %D4
-	ItemLevel >= 75
-	Rarity Rare
-	Class Amulets Belts Rings
-	SetFontSize 40
-	SetTextColor 255 190 0 255              # TEXTCOLOR:	 High Special Base
-	SetBorderColor 255 190 0 255            # BORDERCOLOR:	 T1 highlight
-	SetBackgroundColor 0 75 30 255          # BACKGROUND:	 Trinket T1
+# Show # %D4
+# 	ItemLevel >= 75
+# 	Rarity Rare
+# 	Class Amulets Belts Rings
+# 	SetFontSize 40
+# 	SetTextColor 255 190 0 255            # TEXTCOLOR:	 High Special Base
+# 	SetBorderColor 255 190 0 255          # BORDERCOLOR:	 T1 highlight
+# 	SetBackgroundColor 0 75 30 255        # BACKGROUND:	 Trinket T1
 
-Show # %D4
-	ItemLevel >= 65
-	Rarity Rare
-	Class Amulets Belts Rings
-	SetFontSize 40
-	SetTextColor 255 190 0 255              # TEXTCOLOR:	 High Special Base
-	SetBorderColor 255 190 0 255            # BORDERCOLOR:	 T1 highlight
-	SetBackgroundColor 0 75 30 255          # BACKGROUND:	 Trinket T1
+# Show # %D4
+# 	ItemLevel >= 65
+# 	Rarity Rare
+# 	Class Amulets Belts Rings
+# 	SetFontSize 40
+# 	SetTextColor 255 190 0 255            # TEXTCOLOR:	 High Special Base
+# 	SetBorderColor 255 190 0 255          # BORDERCOLOR:	 T1 highlight
+# 	SetBackgroundColor 0 75 30 255        # BACKGROUND:	 Trinket T1
 
 #===============================================================================================================
 # [[1600]] RARE ITEMS - WEAPONS AND ARMORS (ENDGAME)
