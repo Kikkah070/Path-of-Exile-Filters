@@ -9,6 +9,7 @@ Depending on your playstyle choose the correct filter for you. I suggest startin
 * Semi-Strict = Shows all rares except Tier 3 and lower. Hides some items, great for the start of mapping.
 * Strict = Shows all rares except Tier 2 and lower. Hides scrolls and chromatic recipe, great for use after completing a decent amount of maps
 * Very-Strict = Hides all rares and useless currency. Only use this if you don't want to see that much on your screen.
+* Uber-Strict = Hides (almost) all of the inexpensive items in the game, makes for a smooth clearspeed filter.
 
 *The Regular and Semi-Strict versions both have a Chaos Recipe variant of the filter, so you can decide to show those rares or not*
 
